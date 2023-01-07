@@ -72,7 +72,7 @@ func (q *Queries) ListEnteriess(ctx context.Context, arg ListEnteriessParams) ([
 		return nil, err
 	}
 	defer rows.Close()
-	var items []Enteries
+	items := []Enteries{}
 	for rows.Next() {
 		var i Enteries
 		if err := rows.Scan(

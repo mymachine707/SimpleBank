@@ -7,3 +7,5 @@ docker exec -it postgres12 psql -U root simple_bank
 Lesson 9 : MySQL bilan Postgres farqini ko'rildi
  
 Lesson 10 : Github# SimpleBank Action... githubda proyektni test qilishni o'rganildi
+
+Lesson 11 : Create Get List
