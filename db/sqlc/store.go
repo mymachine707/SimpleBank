@@ -6,12 +6,15 @@ import (
 	"fmt"
 )
 
-type Store struct {
+type Store interface {
+}
+
+type SQLStore struct {
 	*Queries
 	db *sql.DB
 }
 
-func NewStore(db *sql.DB) *Store {
+func NewStore(db *sql.DB) SQLStore {
 	return &Store{
 		db:      db,
 		Queries: New(db),
