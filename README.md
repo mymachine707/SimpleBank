@@ -9,3 +9,5 @@ Lesson 9 : MySQL bilan Postgres farqini ko'rildi
 Lesson 10 : Github# SimpleBank Action... githubda proyektni test qilishni o'rganildi
 
 Lesson 11 : Create Get List
+
+Lesson 12 : viper, env file o'rnatish va sozlash
