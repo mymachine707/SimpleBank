@@ -11,3 +11,5 @@ Lesson 10 : Github# SimpleBank Action... githubda proyektni test qilishni o'rgan
 Lesson 11 : Create Get List
 
 Lesson 12 : viper, env file o'rnatish va sozlash
+
+Lesson 13: mockgen -destination db/mock/store.go  github.com/teachschool/simplebank/db/sqlc Store
